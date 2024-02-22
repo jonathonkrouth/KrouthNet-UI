@@ -1,0 +1,204 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+a { color: #569cd6; }
+a:hover { color: #569cd6; }
+a:focus { color: #569cd6; }
+a:active { color: #569cd6; }
+
+body {
+    font-family: monospace;
+    font-size: large;
+    color: #1E1E1E;
+    background-color: #D4D4D4;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .content {
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .content {
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .content {
+        margin-top: 2em;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+}
+
+.job-header {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.text-red {
+    color: #D69D85;
+    font-weight: bold;
+}
+
+.text-blue {
+    color: #569cd6;
+    font-weight: bold;
+}
+
+.text-green {
+    color: #57A64A;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+</style>
+
+<body>
+
+    <div class="content">
+        <h1>
+            Jonathon Krouth
+        </h1>
+        <h2 class="text-blue">
+            Software Engineer - Green Bay, WI
+        </h2>
+
+        <ul>
+            <li>
+                <a href="https://github.com/jonkrouth/" title="Jonathon's GitHub Page" target="_blank">
+                    GitHub >>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <p>
+            I am a senior software engineer at C.H. Robinson, working on the Tools & Patterns team.
+            There, I create shared libraries and templates for .NET products to help delivery teams 
+            be more productive and reduce boilerplate code.
+        </p>
+        <p>
+            In my free time, I like to play games, mountain bike, read, and work on music production or model train projects.
+        </p>
+        <p>
+            My wife and I also love to spend time traveling, eating good food, and watching TV with the pups.
+        </p>
+    </div>
+
+    <div class="content">
+        <h2 class="text-red">Work History</h2>
+        
+        <div>
+            <span class="text-blue job-header">C.H. Robinson</span>
+            <span class="text-green">// 2016 -> Present</span>
+            <p>
+                I started at C.H. Robinson working on the Compensation delivery team. There, we used React/Redux,
+                .NET Service Stack APIs, and SQL Server to
+                create a compensation planning tool that managers could use to plan their employess compensation structure.
+            </p>
+            <p>
+                After a couple of years, the Compensation team was dispersed to other teams in the org. I joined the Orders
+                delivery team. There, I was responsible with managing change into our Orders module inside of a product called
+                Navisphere. I worked with older technologies like WinForms, WPF, and still Service Stack APIs, but also 
+                newer front end technologies like Angular, TypeScript, JavaScript, and build techologies using NodeJS like Webpack
+                and Jest. This was before things like create-react-app were around.
+            </p>
+            <p>
+                After another couple of years, a new team was created called Tools & Patterns. Their mission was to create shared libraries
+                and template that developers in the org could use to stamp out products quickly, with prebuilt GitHub repositories and CICD pipelines.
+                Things like CORS, Authn and Authz, containerization, and secret storage would all be created up front.
+            </p>
+            <p>
+                I joined this team after a couple of years on Orders, with the hopes of combining my experience "in the trenches" on a delivery team to solve problems 
+                for all of the delivery teams in the org. I work not only in front end and back end technologies, but in mentoring developers on patterns such as
+                event sourcing, domain driven design, and command queueing.
+            </p>
+        </div>
+
+        <div>
+            <span class="text-blue job-header">Connexions Loyalty</span>
+            <span class="text-green">// 2015 -> 2016</span>
+            <p>
+                I joined Connexions Loyalty as a senior software engineer with the ability to architect backend systems, all in .NET.
+            </p>
+        </div>
+
+        <div>
+            <span class="text-blue job-header">Inergize Digital / Lakana</span>
+            <span class="text-green">// 2013 -> 2015</span>
+            <p>
+                At Intergize Digital, I worked primarily on an ASP.NET product called NewsSynergy. This was a mobile application development platform
+                that could be used by news organizations owned by Nexstar Broadcasting to create and manage their mobile apps across iOS and Android.
+                Users could create different sections in the application, and hook up content to the application via RSS. Changes to the app would automatically
+                be published to Apple and Google. This provided a common interface for users.
+            </p>
+        </div>
+
+        <div>
+            <span class="text-blue job-header">Appolis</span>
+            <span class="text-green">// 2010 -> 2013</span>
+            <p>
+                I started as a .NET support engineer at Appolis in 2010. Appolis has a product called WithoutWire that is used for warehouse inventory
+                management. This WMS would also syncronize with Dynamics GP. I was responsible for many roles in my tenure at Appolis.
+            </p>
+            <p>
+                I started as a support engineer, where I tested the system to search and fix bugs. I also was responsible for handling technical support 
+                for customers. Technologies were all .NET based - Microsoft .NET Micro-Framework for apps on PDAs (before smartphones were a thing), ASP.NET
+                WinForms websites, SQL Server, and IT support.
+            </p>
+            <p>
+                Over time, I also took on learning more IT based skills to help support my understanding of .NET. I completed a migration from hardware based servers
+                to VM Ware virtual machines (on-site). Along with managing the Exchange server, domain controller, the active directory forest, and other server technologies.
+            </p>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="text-red">Certifications</h2>
+        <ul>
+            <li>
+                <a href="https://www.credly.com/badges/b8588f29-a6ef-4855-858c-452d6ec3fe8c/public_url" target="_blank" title="Credly link to azure fundamentals certification">
+                    Azure Fundamentals >>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2 class="text-red">Education</h2>
+        <ul>
+            <li>
+                <span class="text-blue">ITT Tech Eden Prairie (2012):</span> Bachelor's in Software Engineering
+            </li>
+            <li>
+                <span class="text-blue">ITT Tech Eden Prairie (2010):</span> Associate in Software Applications and Programming
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
