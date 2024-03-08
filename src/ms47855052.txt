@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
-  "Domain": "krouth.net",
-  "Id": "2ca71979-6b23-47e3-ace1-732a06204a6d"
-}
